@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class TestController {
-    @GetMapping("/")
+    @GetMapping("/hello")
     @ResponseBody
     public String home() {
         return "Hello World";
